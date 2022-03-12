@@ -1,0 +1,860 @@
+@media(max-width: 576px){
+    header{
+        .home{
+            margin-top: 0px;
+            font-size: 32px;
+            letter-spacing: 0rem;
+            word-spacing: 0rem;
+        }
+        
+        .solution{
+            font-size: 24px;
+            letter-spacing: 0rem;
+        }
+        #navbarSupportedContent{
+    
+            ul li:nth-child(6) {
+                display: none;
+            }
+        }
+    }
+
+    .color{
+        font-size: 16px;
+    }
+    .free-shoping{
+        .e-mail {
+            padding: 170px 0px;
+            .parent{
+                padding: 0px 20px 60px 20px;
+                width: 100%;
+            }
+        }
+        .discount{
+            word-spacing: 0px;
+            display: flex;
+            flex-direction: column;
+            font-size: 16px;
+        }
+    }
+    .decoration{
+        .your-home{
+            font-size: 24px;
+        }
+    }
+    .tips{
+        margin-bottom: 20px;
+
+        .tips-decoration {
+            p{
+                font-size: 14px;
+            }
+        }
+    }   
+    .renovate {
+      .container{
+          .row{
+            .renovate-home {
+                padding: 200px 0px;
+                &::before {
+                    left: 0px;
+                    right: 0px;
+                    width: 100%;
+                }
+            }
+    
+            .renovate-home-info {
+                h1 span:nth-child(1) {
+                    margin-top: 0px;
+                }
+    
+                .sweet-home{
+                    margin: 0.5rem 0rem;
+                    padding: 0.5rem 0rem;
+                }
+        
+                .renew{
+                    width: 100%;
+                }
+            }
+          }
+      }
+        
+    }
+    .news{
+      .container{
+          .row{
+                .end{
+                    align-items: center;
+                    margin-bottom: 20px;
+                    ul {
+                        li{
+                            &:nth-child(1) {
+                                font-size: 20px;
+                            }
+                            &:nth-child(2) {
+                                font-size: 20px;
+                            }
+                            &:nth-child(3) {
+                                font-size: 20px;
+                            }
+                        }
+                    }
+                }
+                .news-letter{
+                    &::after{
+                        width: 100%;
+                        right: 0px;
+                    }
+                }
+            }
+        }
+    }
+    .season {
+        .container{
+            .row{
+                .col-12.col-sm-6.col-lg-4{
+                    .decor{
+                        margin-bottom: 20px;
+                    }
+                }
+                .bedroom h4{
+                    margin-bottom: 20px;
+                }
+                .pot::after{
+                    width: 100%;
+                }
+            }
+        }
+    }
+    
+    .yourself {
+        .container{
+            .row{
+                .renovate-yourself {
+                    li{
+                        &:nth-child(1) {
+                            font-size: 30px;
+                        }
+                        &:nth-child(2) {
+                            font-size: 30px;
+                        }
+                        &:nth-child(3) {
+                            font-size: 30px;
+                        }
+                        &:nth-child(4) {
+                            font-size: 30px;
+                        }
+                    }
+                }
+                .renovate-advice {
+                    .img-right {
+                        bottom: -40px;
+                        right: 10px;
+                        width: 50%;
+                    }
+                    .img-left {
+                        bottom: -40px;
+                        width: 25%;
+                        left: 4px;
+                    }
+                    .img-main {
+                        width: 75%;
+                    }
+                    .most-right {
+                        bottom: -40px;
+                        right: -10px;
+                        width: 50%;
+                    }
+                    .advice-home {
+                        bottom: 80px;
+                        right: 104px;
+                        padding-left: 0px;
+        
+                        li {
+                            display: inline-block;
+                        }
+                    }
+                    .advice-blank {
+                        padding: 48px 25px;
+                    }
+                }
+            }
+        }
+    }
+    .form {
+        margin-top: 90px;
+        .form-log {
+            padding: 70px 10px;
+            p{
+                font-size: 12px;
+                text-align: center;
+            }
+        }
+        .your-home{
+            li{
+                font-size: 18px;
+            }
+        }
+    }
+    .decoration{
+        margin-top: 34px;
+        .img-2 {
+            top: 10px;
+            right: 26px;
+            width: 75%;
+        }
+        .img-3 {
+            margin-top: 8px;
+            margin-left: 0px;
+            width: 50%;
+        }
+        .home-hours{
+            .home-blank {
+                padding: 30px 15px;
+                margin-left: 2px;
+                margin-top: 0px;
+            }
+            h2 {
+                font-size: 16px;
+                margin-left: 0px;
+            }
+            div{
+                p {
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+    .footer {
+        .footer-center {
+            text-align: end;
+        }
+        .footer-left{
+            ul {
+                li {
+                    padding: 5px 0px;
+                    text-align: end;
+                    margin-right: 0px;
+                }
+            }
+        }
+        .footer-right{
+            ul {
+                margin-left: 0px;
+                li{
+                    text-align: end;
+                }
+            }
+        }
+    }
+
+
+  
+}
+
+@media(min-width: 577px) and (max-width: 768px){
+    header{
+        .home{
+            font-size: 2rem;
+            letter-spacing: 0px;
+            word-spacing: 0px;
+        }
+        .solution{
+            font-size: 1.2rem;
+            letter-spacing: 0px;
+            word-spacing: 0px;
+        }
+        nav{
+            #navbarSupportedContent{
+                ul{
+                    li{
+                        &:nth-child(6) {
+                            display: none;
+                        }
+                        .color{
+                            font-size: 16px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .free-shoping{
+        .discount{
+            word-spacing: 0px;
+            display: flex;
+            flex-direction: column;
+        }
+    }
+   .decoration{
+       p{
+           font-size: 14px;
+       }
+       .tips{
+           .tips-decoration{
+               p{
+                   font-size: 14px;
+               }
+           }
+       }
+   }
+   .renovate{
+        .renovate-home{
+            &::before {
+                left: 0px;
+                width: 100%;
+                z-index: -1;
+            }
+        }
+        .renovate-home-info{
+            .btn-renew {
+                margin-top: 10px;
+            }
+            .sweet-home{
+                margin: 0.5rem 0rem;
+                padding: 0.5rem 0rem;
+            }
+        }
+   }
+   .news{
+        .end{
+            align-items: center;
+        }
+        .news-letter{
+            margin-top: 20px;
+            &::after {
+                right: 0px;
+                left: 0px;
+                width: 100%;
+            }
+        }
+   }
+   .season {
+        .decor{
+            &::before {
+                left: -59px;
+            }
+        }
+        .bedroom{
+            h4 {
+                font-size: 18px;
+                padding-right: 0px;
+                margin-bottom: 68px;
+            }
+        }
+        .pot{
+            &::after {
+                width: 110%;
+            }
+        }
+   }
+   .yourself{
+        .container{
+            .row{
+                .col-12.col-md-5.col-lg-4{
+                    margin: auto;
+                    .renovate-yourself{
+                        li{
+                            &:nth-child(1) {
+                                font-size: 24px;
+                            }
+                            &:nth-child(2) {
+                                font-size: 24px;
+                            }
+                            &:nth-child(3) {
+                                font-size: 24px;
+                            }
+                            &:nth-child(4) {
+                                font-size: 24px;
+                            }
+                        }
+                    }
+                }
+                .renovate-advice{
+                    .img-main {
+                        width: 75%;
+                    }
+                    .img-right {
+                        bottom: -80px;
+                        right: 130px;
+                        width: 40%;
+                    }
+                    .img-left {
+                        bottom: -80px;
+                        left: 0px;
+                        width: 25%;
+                    }
+                   .advice-blank {
+                        padding: 55px 20px;
+                    }
+                    .most-right {
+                        bottom: -70px;
+                        right: -11px;
+                        width: 50%;
+                    }
+                    .advice-home {
+                        bottom: 20px;
+                        right: 84px;
+                        padding-left: 0px;
+                        margin-bottom: 0px;
+                        li {
+                            padding: 7px;
+                        }
+                    }
+                }
+            }
+        }
+   }
+   .form.sign {
+        margin-top: 40px;
+       ul{
+           li{
+               font-size: 26px;
+           }
+       }
+        .form-log {
+            margin: 60px 0px;
+        }
+        &::after {
+            width: 35%;
+        }
+   }
+   .decoration{
+        .img-2 {
+            top: 16px;
+            right: 10px;
+            width: 60%;
+        }
+        .img-3 {
+            margin-top: 20px;
+            width: 50%;
+            margin-left: 5px;
+        }
+        .img-4 {
+            top: -60px;
+            left: -20px;
+        }
+        .home-hours {
+            .home-blank {
+                padding: 70px 25px;
+                margin-left: 5px;
+                margin-top: 0px;
+            }
+            h2 {
+                font-size: 100px;
+                margin-left: 0px;
+            }
+            div{
+                p {
+                    font-size: 22px;
+                }
+            }
+        }
+        .leaf{
+            img {
+                top: -21%;
+                bottom: 0%;
+                height: 122%;
+            }
+        }
+   }
+   .footer{
+        .footer-left{
+            ul{
+                li {
+                    margin-right: 0px;
+                }
+            }
+        }
+        .footer-center {
+            text-align: end;
+        }
+        .footer-right {
+            text-align: center;
+        }
+   }
+}
+@media(min-width: 769px) and (max-width: 992px){
+    header{
+        .home{
+            font-size: 2rem;
+            letter-spacing: 0px;
+            word-spacing: 0px;
+        }
+    
+        .solution{
+            font-size: 1.2rem;
+            letter-spacing: 0px;
+            word-spacing: 0px;
+        }
+        nav{
+            #navbarSupportedContent{
+                ul {
+                    li{
+                        a {
+                            font-size: 15px;
+                        }
+                        &:nth-child(6){
+                            display: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .your-home{
+        font-size: 20px;
+    }
+    .renovate {
+        .renovate-home{
+            &::before {
+                left: -50px;
+                width: 114%;
+            }
+        }
+        .renovate-home-info{
+            .sweet-home{
+                margin: 0rem 0rem;
+                padding: 0rem 0rem;
+            }
+        }
+    }
+    .news {
+        .end{
+            align-items: center;
+        }
+        .news-letter {
+            margin-top: 20px;
+            &::after {
+                right: -58px;
+            }
+        }
+    }
+    .season {
+        .decor{
+            &::before {
+                left: -90px;
+            }
+        }
+        .bedroom {
+            h4 {
+                font-size: 17px;
+                padding-right: 0px;
+                margin-bottom: 50px;
+            }
+        }
+        .pot{
+            &::after {
+                width: 120%;
+            }
+        }
+    }
+    .yourself{
+        .container{
+            .row{
+                .col-12.col-md-5.col-lg-4{
+                    margin: auto;
+                    .renovate-yourself{
+                        li{
+                            &:nth-child(1) {
+                                font-size: 28px;
+                            }
+                            &:nth-child(2) {
+                                font-size: 28px;
+                            }
+                            &:nth-child(3) {
+                                font-size: 28px;
+                            }
+                            &:nth-child(4) {
+                                font-size: 28px;
+                            }
+                        }
+                    }
+                }
+                .renovate-advice{
+                    .img-main {
+                        width: 75%;
+                    }
+                    .img-right {
+                        width: 50%;
+                        right: 112px;
+                    }
+                    .img-left {
+                        width: 25%;
+                        left: 0px;
+                    }
+                    .most-right {
+                        bottom: -60px;
+                        right: -18px;
+                        width: 50%;
+                    }
+                    .advice-blank {
+                        padding: 55px 25px;
+                    }
+                    .advice-home {
+                        bottom: 4px;
+                        right: 80px;
+                        margin: 0px;
+                        padding: 0px;
+                        li{
+                            padding: 10px;
+                            margin: 3px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .form.sign {
+        margin-top: 75px;
+    }
+    .decoration{
+        margin-top: 78px;
+        .img-2 {
+            top: 30px;
+            width: 70%;
+            right: 60px;
+        }
+        .img-3 {
+            margin-top: 32px;
+            width: 50%;
+        }
+        .img-4 {
+            top: -70px;
+            left: -38px;
+        }
+        .home-hours{
+            h2 {
+                font-size: 100px;
+                margin-left: 0px;
+            }
+        }
+    }
+}
+
+@media(min-width: 993px) and (max-width: 1200px){
+    header{
+        .home{
+            font-size: 2rem;
+            letter-spacing: 0px;
+            word-spacing: 0px;
+        }
+        .solution{
+            font-size: 1.2rem;
+            letter-spacing: 0px;
+            word-spacing: 0px;
+        }
+        nav{
+            #navbarSupportedContent{
+                ul {
+                    li{
+                        .color {
+                            font-size: 15px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .renovate{
+        .renovate-home{
+            &::before {
+                left: -30px;
+                width: 100%;
+            }
+        }
+        .renovate-home-info{
+            h1{
+                span{
+                    &:nth-child(1) {
+                        margin-bottom: 12px;
+                        font-size: 30px;
+                    }
+                    &:nth-child(2) {
+                        font-size: 30px;
+                    }
+                }
+            }
+            .sweet-home{
+                margin: 0.5rem 0rem;
+                padding: 0.5rem 0rem;
+            }
+        }
+    }
+    .news{
+        .news-letter{
+            &::after {
+                right: -32px;
+                width: 100%;
+            }
+        }
+    }
+    .season {
+        .pot{
+            &::after {
+                width: 110%;
+            }
+        }
+    }
+    .yourself{
+        .container{
+            .row{
+                .col-12.col-md-5.col-lg-4{
+                    margin: auto;
+                    .renovate-yourself{
+                        li{
+                            &:nth-child(1) {
+                                font-size: 30px;
+                            }
+                            &:nth-child(2) {
+                                font-size: 30px;
+                            }
+                            &:nth-child(3) {
+                                font-size: 30px;
+                            }
+                            &:nth-child(4) {
+                                font-size: 30px;
+                            }
+                        }
+                    }
+                }
+                .renovate-advice{
+                    .img-main {
+                        width: 75%;
+                    }
+                    .img-right {
+                        width: 40%;
+                        right: 174px;
+                    }
+                    .img-left {
+                        left: 10px;
+                        width: 25%;
+                    }
+                    .most-right {
+                        bottom: -112px;
+                        right: -22px;
+                        width: 50%;
+                    }
+                    .advice-blank {
+                        padding: 84px 25px;
+                    }
+                    .advice-home {
+                        bottom: 14px;
+                        right: 128px;
+                    }
+                }
+            }
+        }
+    }
+    .decoration{
+        .img-2 {
+            right: 24px;
+            width: 75%;
+        }
+    }
+}
+
+@media(min-width: 1201px) and (max-width: 1400px){
+    .your-home{
+        font-size: 28px;
+    }
+    .sweet-home{
+        margin: 0.5rem 0rem;
+        padding: 0.5rem 0rem;
+    }
+    .news {
+        .news-letter{
+            &::after {
+                right: -104px;
+                width: 100%;
+            }
+        }
+    }
+    .season
+        .pot{
+            &::after {
+                width: 127%;
+        }
+    }
+    .yourself{
+        .container{
+            .row{
+                .renovate-yourself{
+                    li{
+                        &:nth-child(1){
+                            font-size: 30px;
+                        }
+                        &:nth-child(2){
+                            font-size: 30px;
+                        }
+                        &:nth-child(3){
+                            font-size: 30px;
+                        }
+                        &:nth-child(4){
+                            font-size: 30px;
+                        }
+                    }
+                }
+                .renovate-advice{
+                    .img-main {
+                        width: 75%;
+                    }
+                    .img-right {
+                        bottom: -70px;
+                        right: 220px;
+                        width: 25%;
+                    }
+                    .img-left {
+                        bottom: -56px;
+                        left: 25px;
+                        width: 25%;
+                    }
+                    .most-right {
+                        bottom: -52px;
+                        right: 94px;
+                        width: 25%;
+                    }
+                    .advice-blank {
+                        padding: 99px 25px;
+                    }
+                    .advice-home {
+                        bottom: 40px;
+                        right: 161px;
+                    }
+                }
+            }
+        }
+    }
+    .decoration{
+        .home-decoration{
+            .img-2 {
+                top: 24px;
+                right: 134px;
+                width: 40%;
+            }
+            .home-blank {
+                padding: 130px 30px;
+                display: inline-block;
+                position: absolute;
+                bottom: 39px;
+                right: 436px;
+            }
+        }
+    } 
+}
+
+@media(min-width: 1401px){
+    .decoration{
+        .leaf {
+            img {
+                top: -14%;
+                bottom: 0%;
+                right: 0px;
+                z-index: -2;
+                height: 114%;
+                width: 53%;
+            }
+        }
+    }
+}
